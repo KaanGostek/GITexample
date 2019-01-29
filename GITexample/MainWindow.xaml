@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="23" Margin="119,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  PreviewTextInput="NumberValidationTextBox" TextChanged="doCalc"/>
+        <Label Content="+" HorizontalAlignment="Left" Margin="265,128,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" Margin="313,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  PreviewTextInput="NumberValidationTextBox" TextChanged="doCalc"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="464,125,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelAnswer" Content="0" HorizontalAlignment="Left" Margin="516,125,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
